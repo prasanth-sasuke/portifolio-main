@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Website",
+    "description": "A full-stack e-commerce website using React and Node.js with AWS integration.",
+    "technologies": ["React", "Node.js", "AWS S3", "DynamoDB"],
+    "image": "ecommerce.png",
+    "link": "https://example.com/ecommerce",
+    "role": "Backend Developer",
+    "responsibilities": [
+      "Developed RESTful APIs for product and order management",
+      "Integrated AWS S3 for product image storage",
+      "Implemented payment processing functionality"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chat Application",
+    "description": "Real-time chat application with WebSocket, Node.js, and React.",
+    "technologies": ["React", "Node.js", "Socket.io"],
+    "image": "chatapp.png",
+    "link": "https://example.com/chatapp",
+    "role": "Full Stack Developer",
+    "responsibilities": [
+      "Built real-time messaging feature using WebSocket",
+      "Designed the frontend interface with React",
+      "Maintained database schema and optimized queries"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chat Application",
+    "description": "Real-time chat application with WebSocket, Node.js, and React.",
+    "technologies": ["React", "Node.js", "Socket.io"],
+    "image": "chatapp.png",
+    "link": "https://example.com/chatapp",
+    "role": "Full Stack Developer",
+    "responsibilities": [
+      "Built real-time messaging feature using WebSocket",
+      "Designed the frontend interface with React",
+      "Maintained database schema and optimized queries"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chat Application",
+    "description": "Real-time chat application with WebSocket, Node.js, and React.",
+    "technologies": ["React", "Node.js", "Socket.io"],
+    "image": "chatapp.png",
+    "link": "https://example.com/chatapp",
+    "role": "Full Stack Developer",
+    "responsibilities": [
+      "Built real-time messaging feature using WebSocket",
+      "Designed the frontend interface with React",
+      "Maintained database schema and optimized queries"
+    ]
+  }
+]

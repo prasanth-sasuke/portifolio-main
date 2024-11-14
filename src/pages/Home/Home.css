@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.homeIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 10%;
+}
+
+.homeIcons-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-1 {
+    position: relative;
+    left: 90px;
+}
+.item-4 {
+    position: relative;
+    left: 80px;
+}
+
+
+.homeIcons-content {
+    width: 100%;
+
+}
+
+.homeIcons-content img {
+    width: 60px;
+    height: auto;
+}
+
+.picture {
+    width: 58%;
+}
+
+.picture img {
+    width: 100%;
+
+}
+
+.content {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-top: 10%;
+}
+
+.content h2 {
+    color: #8B8B8B;
+}
+
+.content h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Lobster";
+}
+
+.content div {
+    background-color: orange;
+    border-radius: 9px;
+    line-height: 9px;
+    padding: 5px;
+}
+
+.content div p {
+    font-size: small;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.paragraph {
+    padding: 15% 0;
+}
+
+
+.button-11 {
+    width: 163px;
+    height: 43px;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #3D3D3D;
+    background: #ffffff;
+    border: none;
+    /* box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1); */
+    /* / user-select: none; /
+    / -webkit-user-select: none; /
+    / touch-action: manipulation; / */
+    border-radius: 100px;
+}
+
+.button-11:focus {
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+.button-11:hover {
+    cursor: pointer;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+    color: black;
+}

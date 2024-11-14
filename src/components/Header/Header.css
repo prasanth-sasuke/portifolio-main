@@ -1,0 +1,33 @@
+.header{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .headerOne{
+    width: 108px;
+    height: 20px;
+} */
+.headerOne img{
+    width: 108px;
+    height: auto;
+}
+.headerTwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 85px;
+}
+.headerTwo div a{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.headerTwo svg {
+    display: flex;
+    align-items: center; 
+    vertical-align: middle;
+    font-size: 22px;
+    gap: 10px;
+}
