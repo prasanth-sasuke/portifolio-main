@@ -19,12 +19,12 @@ export const Menu = () => {
     <div className='homeIcons'>
       <div className={positionOne}>
         <Link to='/about'>
-          <img src={About} />
+          <img src={About} alt='name'/>
           <p>About</p></Link>
       </div>
       <div className='homeIcons-content'>
         <Link to="/resume">
-          <img src={Resume} />
+          <img src={Resume} alt='name'/>
           <p>Resume</p></Link>
       </div>
       {/* <div className='homeIcons-content'>
@@ -35,7 +35,7 @@ export const Menu = () => {
         </div> */}
       <div className={positionTwo}>
         <Link to="/project">
-          <img src={Project} />
+          <img src={Project} alt='name'/>
           <p>Project</p>
         </Link>
       </div>

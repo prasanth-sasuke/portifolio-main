@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='headerOne'>
-        <Link to="/"><img src={Logo} /></Link>
+        <Link to="/"><img src={Logo} alt='name'/></Link>
       </div>
       <div className='headerTwo'>
         <div ><a href="mailto:prasanthsathasivam2001@gmail.com"><span><IoIosMail /></span>prasanthsathasivam2001@gmail.com</a></div>
