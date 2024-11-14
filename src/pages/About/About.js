@@ -1,15 +1,12 @@
 import React from 'react'
-import { Menu } from '../../components/Menu/Menu';
 import './About.css'
 import Picture from '../../assesets/prasantg.png';
-import ResumePic from '../../assesets/Resume.jpg'
 import { Link, useLocation } from 'react-router-dom';
 import Abouts from '../../assesets/icons/info.png';
 import Resumes from '../../assesets/icons/cv.png';
 import Projects from '../../assesets/icons/project.png';
 import contanct from '../../assesets/icons/contact.png';
 
-import Skill from '../../assesets/icons/aptitude.png';
 
 export const About = () => {
   const location = useLocation();

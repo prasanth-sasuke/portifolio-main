@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import About from '../../assesets/icons/info.png';
 import Resume from '../../assesets/icons/cv.png';
 import Project from '../../assesets/icons/project.png';
-import Skill from '../../assesets/icons/aptitude.png';
 
 export const Menu = () => {
   const location = useLocation();
